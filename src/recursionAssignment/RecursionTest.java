@@ -10,7 +10,7 @@ public class RecursionTest{
     
     @Before
     public void beforeTest(){
-      
+
       // some steps to perform before tests are run
     }
     
@@ -21,7 +21,10 @@ public class RecursionTest{
     public void Test1(){
         // make assertion statement(s)
         // assertEquals(EXPECTEDVALUE, TESTVALUE);
+        assertEquals(true, Recursion.array220([1, 2, 20], 0));
+        
         // assertTrue(TESTBOOLEAN);
+        
     }
     
     // add more tests
