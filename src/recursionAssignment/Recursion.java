@@ -6,6 +6,7 @@ public class Recursion{
     int Length = intNums.length;
     if (index >= Length - 1) {
      return false;
+    }
     if (intNums[index] * 10 == intNums[index + 1]) {
      return true;
     }else {
