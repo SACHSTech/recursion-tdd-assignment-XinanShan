@@ -70,6 +70,10 @@ public class RecursionTest{
     public void Test13(){
       assertEquals("abcd", Recursion.stringClean("abcd"));
     }
+    @Test
+    public void Test14(){
+      assertEquals(true, strCopies("catcowcat", "cat", 2));
+    }
     // add more tests
     @After
     public void afterTest(){
