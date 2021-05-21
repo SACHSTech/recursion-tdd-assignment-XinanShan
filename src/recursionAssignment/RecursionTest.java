@@ -24,78 +24,82 @@ public class RecursionTest{
     }
     @Test
     public void Test2(){
-      assertEquals(false, Recursion.array220(new int[]{3}, 0));
+      assertEquals(false, Recursion.array220(new int[]{1, 2, 3}, 0));
     }
     @Test
     public void Test3(){
-      assertEquals(true, Recursion.array220(new int[]{3, 30}, 0));
+      assertEquals(false, Recursion.array220(new int[]{3}, 0));
     }
     @Test
     public void Test4(){
-      assertEquals(false, Recursion.array220(new int[]{}, 0));
+      assertEquals(true, Recursion.array220(new int[]{3, 30}, 0));
     }
     @Test
     public void Test5(){
+      assertEquals(false, Recursion.array220(new int[]{}, 0));
+    }
+    @Test
+    public void Test6(){
       assertEquals(true, Recursion.array220(new int[]{28, 6, 10, -7, -70, 36}, 0));
     } 
     @Test
-    public void Test6(){
+    public void Test7(){
       assertEquals(true, Recursion.array220(new int[]{1, 2, 20}, 1));
     } 
     @Test
-    public void Test7(){
+    public void Test8(){
       assertEquals("yza", Recursion.stringClean("yyzzza"));
     } 
     @Test
-    public void Test8(){
+    public void Test9(){
       assertEquals("abcd", Recursion.stringClean("abbbcdd"));
     } 
     @Test
-    public void Test9(){
+    public void Test10(){
       assertEquals("", Recursion.stringClean(""));
     } 
     @Test
-    public void Test10(){
+    public void Test11(){
       assertEquals("y", Recursion.stringClean("y"));
     } 
     @Test
-    public void Test11(){
+    public void Test12(){
       assertEquals("QSsTBa", Recursion.stringClean("QSsTTBaa"));
     }
     @Test
-    public void Test12(){
+    public void Test13(){
       assertEquals("y", Recursion.stringClean("yyyyyyyy"));
     }
     @Test
-    public void Test13(){
+    public void Test14(){
       assertEquals("abcd", Recursion.stringClean("abcd"));
     }
     @Test
-    public void Test14(){
+    public void Test15(){
       assertEquals(true, Recursion.strCopies("catcowcat", "cat", 2));
     }
     @Test
-    public void Test15(){
+    public void Test16(){
       assertEquals(false, Recursion.strCopies("catcowcat", "cow", 2));
     }
     @Test
-    public void Test16(){
+    public void Test17(){
       assertEquals(true, Recursion.strCopies("catcowcat", "cow", 1));
     }
     @Test
-    public void Test17(){
+    public void Test18(){
       assertEquals(true, Recursion.strCopies("aaaa", "aa", 3));
     }
     @Test
-    public void Test18(){
+    public void Test19(){
       assertEquals(true, Recursion.strCopies("catcowcat", "cow", 0));
     }
     @Test
-    public void Test19(){
+    public void Test20(){
       assertEquals(false, Recursion.strCopies("", "cow", 5));
     }
     @Test
-    public void Test20(){
+    public void Test21(){
       assertEquals(true, Recursion.strCopies("catcatcat", "cat", 3));
     }
     // add more tests
