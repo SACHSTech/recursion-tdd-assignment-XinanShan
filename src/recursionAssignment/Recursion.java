@@ -32,6 +32,21 @@ public class Recursion{
     } 
   }
   public static boolean strCopies(String str, String sub, int n){
-   return true;
+    if (n <= 0){
+      // base case 
+      return true; 
+    }
+    if (str.length() < sub.length()){
+      // another base case if there's no substring sub
+      return false;
+    }
+    // check if there's sub within the str
+    if (str.substring(0, sub.length()).equals(sub)){
+      // recursion case
+      return strCopies(str.substring(1), sub, n-1);
+    }else{
+      // recursion case if sub isn't found
+      return strCopies(str.substring(1), sub, n);
+  }
  }
 }
