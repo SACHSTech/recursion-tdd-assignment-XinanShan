@@ -20,9 +20,14 @@ public class Recursion{
   }
   public static String stringClean(String str){
     String answer = "";
-    if ( str.length <= 1){
+    if ( str.length() <= 1){
       // base case 
       return str;
+    }
+    if ( str.charAt(0) == str.chatAt(1)){
+      return stringClean(str.substring(1));
+    } else{
+      
     }
     return answer; 
   }
