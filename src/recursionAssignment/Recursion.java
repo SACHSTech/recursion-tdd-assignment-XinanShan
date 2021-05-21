@@ -20,7 +20,10 @@ public class Recursion{
   }
   public static String stringClean(String str){
     String answer = "";
-    if ( str.ch)
+    if ( str.length <= 1){
+      // base case 
+      return str;
+    }
     return answer; 
   }
  // public static boolean strCopies(String str, String sub, int n){
