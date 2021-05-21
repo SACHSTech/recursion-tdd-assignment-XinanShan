@@ -56,15 +56,15 @@ public class RecursionTest{
     } 
     @Test
     public void Test10(){
-      assertEquals("", Recursion.stringClean(""));
-    } 
-    @Test
-    public void Test11(){
       assertEquals("y", Recursion.stringClean("y"));
     } 
     @Test
-    public void Test12(){
+    public void Test11(){
       assertEquals("QSsTBa", Recursion.stringClean("QSsTTBaa"));
+    }
+    @Test
+    public void Test12(){
+      assertEquals("y", Recursion.stringClean("yyyyyyyy"));
     }
     // add more tests
     @After
