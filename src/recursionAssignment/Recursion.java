@@ -4,6 +4,7 @@ public class Recursion{
   public static boolean array220(int[] intNums, int index){
     //declearing the variables
     int Length = intNums.length;
+    // check if the index 
     if (index >= Length - 1) {
      return false;
     }

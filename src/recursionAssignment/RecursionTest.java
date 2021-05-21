@@ -38,6 +38,10 @@ public class RecursionTest{
     public void Test5(){
       assertEquals(Recursion.array220(new int[]{28, 6, 10, 7, 70, 36}, 0), true);
     } 
+    @Test
+    public void Test6(){
+      assertEquals(Recursion.stringClean("yyzzza"), "yza");
+    } 
     // add more tests
     @After
     public void afterTest(){
