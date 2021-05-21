@@ -72,7 +72,7 @@ public class RecursionTest{
     }
     @Test
     public void Test14(){
-      assertEquals(true, strCopies("catcowcat", "cat", 2));
+      assertEquals(true, Recursion.strCopies("catcowcat", "cat", 2));
     }
     // add more tests
     @After

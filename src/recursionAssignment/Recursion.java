@@ -31,7 +31,7 @@ public class Recursion{
       return str.charAt(0) + stringClean(str.substring(1));
     } 
   }
- // public static boolean strCopies(String str, String sub, int n){
-
- // }
+  public static boolean strCopies(String str, String sub, int n){
+   return true;
+ }
 }
