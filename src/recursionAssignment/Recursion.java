@@ -2,7 +2,13 @@ package recursionAssignment;
 
 public class Recursion{
   public static boolean array220(int[] intNums, int index){
+    //declearing the variables
+    int Length = intNums.length;
+    if (intNums[index] * 10 == intNums[index + 1]) {
     return true;
+    }else {
+      return false;
+    }
   }
  // public static String stringClean(String str){
 
