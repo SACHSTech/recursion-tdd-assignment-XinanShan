@@ -42,6 +42,7 @@ public class RecursionTest{
     public void Test6(){
       assertEquals(Recursion.stringClean("yyzzza"), "yza");
     } 
+    
     // add more tests
     @After
     public void afterTest(){
