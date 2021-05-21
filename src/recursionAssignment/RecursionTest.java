@@ -66,6 +66,10 @@ public class RecursionTest{
     public void Test12(){
       assertEquals("y", Recursion.stringClean("yyyyyyyy"));
     }
+    @Test
+    public void Test13(){
+      assertEquals("abcd", Recursion.stringClean("abcd"));
+    }
     // add more tests
     @After
     public void afterTest(){
