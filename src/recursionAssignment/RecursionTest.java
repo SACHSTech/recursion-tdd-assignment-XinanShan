@@ -26,6 +26,10 @@ public class RecursionTest{
     public void Test2(){
       assertEquals(Recursion.array220(new int[]{3}, 0), false);
     }
+    @Test
+    public void Test3(){
+      assertEquals(Recursion.array220(new int[]{3, 30}, 0), true);
+    }
     // add more tests
     @After
     public void afterTest(){
