@@ -86,6 +86,10 @@ public class RecursionTest{
     public void Test17(){
       assertEquals(true, Recursion.strCopies("aaaa", "aa", 3));
     }
+    @Test
+    public void Test18(){
+      assertEquals(true, Recursion.strCopies("catcowcat", "cow", 0));
+    }
     // add more tests
     @After
     public void afterTest(){
