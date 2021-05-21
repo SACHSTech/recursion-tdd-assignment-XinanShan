@@ -32,7 +32,7 @@ public class RecursionTest{
     }
     @Test
     public void Test4(){
-      assertEquals(Recursion.array220(new int[]{}, 0), true);
+      assertEquals(Recursion.array220(new int[]{}, 0), false);
     }
     // add more tests
     @After
