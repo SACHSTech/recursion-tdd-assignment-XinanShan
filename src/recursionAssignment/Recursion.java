@@ -19,7 +19,6 @@ public class Recursion{
     }
   }
   public static String stringClean(String str){
-    String answer = "";
     if ( str.length() <= 1){
       // base case 
       return str;
@@ -27,9 +26,8 @@ public class Recursion{
     if ( str.charAt(0) == str.chatAt(1)){
       return stringClean(str.substring(1));
     } else{
-      
-    }
-    return answer; 
+      return str.charAt(0) + stringClean(str.substring(1));
+    } 
   }
  // public static boolean strCopies(String str, String sub, int n){
 
