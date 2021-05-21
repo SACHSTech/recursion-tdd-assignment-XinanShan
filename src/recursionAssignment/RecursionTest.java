@@ -19,7 +19,7 @@ public class RecursionTest{
     public void Test1(){
         // make assertion statement(s)
         // assertEquals(EXPECTEDVALUE, TESTVALUE);
-        assertEquals(Recursion.array220(new int[]{1, 2, 20}, 0), true);
+      assertEquals(Recursion.array220(new int[]{1, 2, 20}, 0), true);
         // assertTrue(TESTBOOLEAN);
     }
     @Test
