@@ -36,14 +36,18 @@ public class RecursionTest{
     }
     @Test
     public void Test5(){
-      assertEquals(true, Recursion.array220(new int[]{28, 6, 10, 7, 70, 36}, 0));
+      assertEquals(true, Recursion.array220(new int[]{28, 6, 10, -7, -70, 36}, 0));
     } 
     @Test
     public void Test6(){
-      assertEquals("yza", Recursion.stringClean("yyzzza"));
+      assertEquals(true, Recursion.array220(new int[]{1, 2, 20}, 1));
     } 
     @Test
     public void Test7(){
+      assertEquals("yza", Recursion.stringClean("yyzzza"));
+    } 
+    @Test
+    public void Test8(){
       assertEquals("abcd", Recursion.stringClean("abbbcdd"));
     } 
     // add more tests
