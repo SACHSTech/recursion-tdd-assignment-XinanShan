@@ -24,8 +24,10 @@ public class Recursion{
       return str;
     }
     if ( str.charAt(0) == str.charAt(1)){
+      // recursion case
       return stringClean(str.substring(1));
     } else{
+      // recursion case
       return str.charAt(0) + stringClean(str.substring(1));
     } 
   }
